@@ -1,0 +1,31 @@
+{
+  "name": "type",
+  "id": "type",
+  "version": "0.0.1",
+  "description": "Type utils",
+  "keywords": [ "types", "utils", "checks"  ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/type",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/type.git",
+    "web": "https://github.com/Gozala/type"
+  },
+  "bugs": {
+    "web": "http://github.com/Gozala/type/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.0.10"
+  },
+  "directories": { "lib": "." },
+  "engines": {
+    "node": "0.4.x"
+  },
+  "scripts": {
+    "test": "node tests/test-type.js"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}
