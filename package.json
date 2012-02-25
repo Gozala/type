@@ -12,7 +12,7 @@
     "web": "https://github.com/Gozala/type"
   },
   "bugs": {
-    "web": "http://github.com/Gozala/type/issues/"
+    "url": "http://github.com/Gozala/type/issues/"
   },
   "devDependencies": {
     "test": ">=0.0.10"
