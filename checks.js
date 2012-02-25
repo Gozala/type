@@ -105,7 +105,7 @@ exports.instanceOf = instanceOf;
  *    isRegExp(/moe/); // true
  */
 function isRegExp(value) {
-  return isObject(value) && instanceOf(value, RegExp);
+  return instanceOf(value, RegExp);
 }
 exports.isRegExp = isRegExp;
 
