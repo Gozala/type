@@ -1,7 +1,7 @@
 {
   "name": "type",
   "id": "type",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Type utils",
   "keywords": [ "types", "utils", "checks"  ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
