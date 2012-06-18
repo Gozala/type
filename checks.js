@@ -137,7 +137,7 @@ exports.isFunction = isFunction;
  */
 var isArray = Array.isArray || function isArray(value) {
   return Object.prototype.toString.call(value) === "[object Array]";
-}
+};
 exports.isArray = isArray;
 
 /**
