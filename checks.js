@@ -115,7 +115,7 @@ exports.isRegExp = isRegExp;
  *    isDate(new Date()); // true
  */
 function isDate(value) {
-  return isObject(value) && instanceOf(Date);
+  return isObject(value) && instanceOf(value, Date);
 }
 exports.isDate = isDate;
 
@@ -137,7 +137,7 @@ exports.isFunction = isFunction;
  */
 var isArray = Array.isArray || function isArray(value) {
   return Object.prototype.toString.call(value) === "[object Array]";
-}
+};
 exports.isArray = isArray;
 
 /**
