@@ -115,7 +115,7 @@ exports.isRegExp = isRegExp;
  *    isDate(new Date()); // true
  */
 function isDate(value) {
-  return isObject(value) && instanceOf(Date);
+  return isObject(value) && instanceOf(value, Date);
 }
 exports.isDate = isDate;
 

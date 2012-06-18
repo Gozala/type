@@ -58,6 +58,11 @@ exports["test instanceOf"] = function (assert) {
   assert.ok(!utils.instanceOf(null, Object), "null is not an instance");
 };
 
+exports["test Date"] = function (assert) {
+  assert.ok(utils.isDate(new Date()), "instance of date");
+  assert.ok(!utils.isDate({}), "object is not a Date");
+};
+
 exports["test json"] = function (assert) {
   assert.ok(!utils.isJSON(function(){}), "functions are not json");
   assert.ok(utils.isJSON({}), "`{}` is JSON");
