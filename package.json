@@ -1,6 +1,7 @@
 {
   "name": "type",
   "id": "type",
+  "main": "checks.js",
   "version": "0.0.3",
   "description": "Type utils",
   "keywords": [ "types", "utils", "checks"  ],
